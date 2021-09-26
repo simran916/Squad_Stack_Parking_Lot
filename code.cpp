@@ -76,8 +76,8 @@ public:
 	void freeSlot(int slot_number){
 		Slot* temp = all_slots[slot_number];
 		if(temp->isFree){
-            cout<<"Slot already Vacant";
-            return;
+	    cout<<"Slot already Vacant";
+	    return;
 		}
 
 		string vehicle_in_slot = temp->vehicle_number;
